@@ -15,7 +15,7 @@ async function init() {
    // Call dotenv to recognize env vars
    require('dotenv').config({
       multiline: 'line-breaks',
-      path: 'settings.env'
+      path: '.env'
    });
 
    console.log(chalk.green(`
